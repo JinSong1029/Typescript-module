@@ -1,0 +1,26 @@
+{
+  "name": "typescript-module",
+  "version": "1.0.0",
+  "description": "typescript module",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TigerDevCom/Typescript-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TigerDevCom/Typescript-module/issues"
+  },
+  "homepage": "https://github.com/TigerDevCom/Typescript-module#readme"
+}
