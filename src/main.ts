@@ -1,5 +1,8 @@
-var hello = function(compiler: string) {
-    console.log(`Hello from ${compiler}`);
+import { sayHello } from "./greet";
+
+var showHello = function(divName: string, name: string) {
+    const elt = document.getElementById(divName);
+    elt.innerText = sayHello(name);
 }
 
-hello("TypeScript");
+showHello("greeting", "TypeScript");
