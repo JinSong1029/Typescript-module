@@ -4,7 +4,11 @@ Wire up of TypeScript with Gulp and its related dependencies.
 
 ## Installation
 
-At the moment, we have some services requirements. Go to console.
+At the moment, we have some services requirements.
+
+This project requires Node.js version 8.x or above.
+
+Go to console.
 
 1) Just clone the app to your local machine 'git clone'
 
